@@ -2,12 +2,12 @@
   --primar-color: #FFFFFF;
   --second-color: #393A40;
   --third-color: #1D6362;
-  --quarter-color:#1a1a1a;
+  --quarter-color: #1a1a1a;
 }
 
-  
+
 * {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -25,6 +25,7 @@ body {
 /* --------------------------------------------- INICIO HEADER ---------------------------------------------- */
 .header {
   padding: 16px 0;
+
 }
 
 
@@ -59,9 +60,9 @@ body {
 
 .logo h1 {
   font-size: 2.2rem;
-    font-weight: bold;
-    color: var(--cor-primaria);
-    margin: 0;
+  font-weight: bold;
+  color: var(--cor-primaria);
+  margin: 0;
 }
 
 
@@ -104,7 +105,7 @@ body {
   color: #6b7280;
   margin-bottom: 24px;
   line-height: 1.5;
- 
+
 }
 
 
@@ -537,7 +538,6 @@ body {
   }
 
 
-
   .menu-desktop ul li a {
     text-decoration: none;
     color: #000;
@@ -556,55 +556,133 @@ body {
     color: var(--third-color);
   }
 
-  .Todos {
-    
+  .header-information {
+    position: relative;
+    top: 45px;
+    left: 46px;
   }
 
+  .hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .hero-Wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .hero-Content {
+    /* Seus estilos atuais para o conteúdo */
+    max-width: 612px;
+    margin: 45px;
+  }
+
+
+  .hero-image img {
+    width: 600px;
+    height: auto;
+
+  }
 
 
   .hero-Content h2 {
     font-size: 68px;
     text-align: left;
+    max-width: 612px;
+
   }
 
   .hero-Content p {
-    font-size: 16px;
+    font-size: 20px;
     text-align: left;
+    max-width: 510px;
   }
 
-  /*
-  .hero-Content ul li a {
-  display: inline-block;
-  padding: 12px 200px;
-  font-weight: 600;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 16px;
-  transition: all 0.2s ease;
-  
-}
-  */
+  /* -------------------------- Inicio Desktop Part1 --------------------------- */
 
 
-/* -------------------------- Inicio Desktop Part1 --------------------------- */
+  .part1 .primar-text h2,
+  .part1 .primar-text p,
+  .part1 .secont-text h3,
+  .part1 .secont-text p,
+  .support-item {
+    padding-left: 30px;
+  }
 
 
-.part1 .Menu-meio h2{
-  font-size: 45px;
-  text-align: left;
-}
 
-.part1 img{
-  width: 54px;
-  height: 54px;
-  border-radius: 50%;
-  padding: 10px;
-  margin-bottom: 16px;
-}
+  .part1 .primar-text h2 {
+    font-size: 58px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    max-width: 784px;
+    margin-bottom: 20px;
+    margin-top: 45px;
+  }
 
-.part1 h2{
+  .part1 .primar-text p {
+    font-size: 19px;
+    max-width: 488px;
+  }
 
-}
+  .part1 .subtitle {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
 
+  .support-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+
+  }
+
+  .support-item img {
+    width: 70px;
+    height: 70px;
+    margin-top: 19px;
+  }
+
+  .part1 .secont-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+
+
+  .part1 .secont-text h3 {
+    font-size: 32px;
+    max-width: 280px;
+
+  }
+
+  .part1 .secont-text p {
+    font-size: 18px;
+    max-width: 331px;
+  }
+
+  /* -------------------------- Inicio Desktop Part2 --------------------------- */
+
+  .mobile-img {
+    display: none;
+  }
+
+  .image-menu {
+    max-width: 579px;
+    width: 100%;
+  }
+
+  .image-menu2 {
+    max-width: 579px;
+    width: auto;
+
+  }
 
 }
