@@ -214,7 +214,7 @@ body {
 
 
 /* Imagem da conversa (ex: chat do Phoenix Baker) */
-.par2 .Menu img {
+.par2 .menu img {
   width: 100%;
   border-radius: 12px;
   margin-bottom: 24px;
@@ -223,7 +223,7 @@ body {
 
 
 /* Título */
-.par2 .Menu h2 {
+.par2 .menu h2 {
   font-size: 22px;
   font-weight: 700;
   color: #1a1a1a;
@@ -233,7 +233,7 @@ body {
 
 
 /* Parágrafo */
-.par2 .Menu p {
+.par2 .menu p {
   font-size: 15px;
   color: #6b7280;
   line-height: 1.6;
@@ -243,7 +243,7 @@ body {
 
 
 /* Botão Explore Now */
-.par2 .Menu button {
+.par2 .menu button {
   background-color: #0f5b5a;
   color: #ffffff;
   font-size: 15px;
@@ -261,13 +261,13 @@ body {
 
 /* Seta para a direita opcional (→) */
 
-.par2 .Menu button::after {
+.par2 .menu button::after {
   content: "→";
   font-weight: 400;
 }
 
 /* Efeito hover */
-.par2 .Menu button:hover {
+.par2 .menu button:hover {
   background-color: #0b4948;
 }
 
@@ -291,7 +291,7 @@ body {
 
 
 
-.part3 .Menu h2 {
+.part3 .Menu-Part3 h2 {
   font-size: 24px;
   font-weight: 700;
   color: #1a1a1a;
@@ -301,13 +301,13 @@ body {
 
 
 
-.part3 .Menu h2 span,
-.part3 .Menu h2 strong {
+.part3 .Menu-Part3 h2 span,
+.part3 .Menu-Part3 h2 strong {
   color: var(--third-color);
 }
 
 
-.part3 .Menu p {
+.part3 .Menu-Part3 p {
   font-size: 15px;
   color: #6b7280;
   margin-bottom: 40px;
@@ -318,7 +318,7 @@ body {
 }
 
 
-.part3 .Menu img {
+.part3 .Menu-Part3 img {
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
@@ -515,6 +515,10 @@ body {
   .menu-desktop {
     display: none;
   }
+
+  .Desktop-img {
+    display: none;
+  }
 }
 
 
@@ -674,6 +678,8 @@ body {
     display: none;
   }
 
+
+
   .image-menu {
     max-width: 579px;
     width: 100%;
@@ -682,7 +688,22 @@ body {
   .image-menu2 {
     max-width: 579px;
     width: auto;
+    order: 999;
+    /*Inverter a ordem */
 
   }
+
+  .menu {
+    display: flex;
+    /*Deixar cada um em seu espaço*/
+  }
+
+  .par2 .menu-text h2 {
+    max-width: 500px;
+    font-size: 48px;
+    text-align: left;
+  }
+
+
 
 }
