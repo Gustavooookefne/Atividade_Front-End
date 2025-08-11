@@ -243,7 +243,7 @@ body {
 
 
 /* Botão Explore Now */
-.par2 .menu button {
+.button-menu-1 h4 {
   background-color: #0f5b5a;
   color: #ffffff;
   font-size: 15px;
@@ -256,14 +256,32 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  margin-right: 145px;
 }
+
+.button-menu-2 h4 {
+  background-color: #0f5b5a;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 145px;
+}
+
 
 
 /* Seta para a direita opcional (→) */
 
-.par2 .menu button::after {
+.par2 .menu h4::after {
   content: "→";
-  font-weight: 400;
+  font-weight: 300px;
 }
 
 /* Efeito hover */
@@ -681,35 +699,102 @@ body {
 
   .image-menu {
     max-width: 579px;
-    width: 100%;
-    margin-right: ;
+    width: auto;
+    margin-right: 115px;
+    margin-left: 75px;
   }
+
 
   .image-menu2 {
     max-width: 579px;
     width: auto;
     order: 999;
-    /*Inverter a ordem */
+    margin-left: 97px;
 
   }
 
   .menu {
     display: flex;
-    /*Deixar cada um em seu espaço*/
   }
+
 
   .par2 .menu-text h2 {
     max-width: 500px;
     font-size: 48px;
     text-align: left;
+    margin-left: 35px;
   }
 
-  .par2 .menu-text p{
-    font-size: 21px;
+
+  .par2 .menu-text p {
+    font-size: 17px;
     max-width: 402px;
     text-align: left;
+    margin-left: 35px;
   }
 
 
+  .par2 .menu-text-2 h2 {
+    max-width: 500px;
+    font-size: 48px;
+    text-align: left;
+    margin-left: 90px;
+  }
 
+  .par2 .menu-text-2 p {
+    font-size: 17px;
+    max-width: 541px;
+    text-align: left;
+    margin-left: 90px;
+
+  }
+
+  .button-menu-1 h4 {
+    background-color: #1F6B68;
+    color: white;
+    padding: 15px 50px;
+    margin-left: 33px;
+    margin-right: 350px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 25px;/
+  }
+
+  .button-menu-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .button-menu-2 h4 {
+    background-color: #1F6B68;
+    color: white;
+    padding: 15px 50px;
+    margin-left: -33px;
+    margin-right: 190px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+
+  }
+
+  .button-menu-2 h4:hover {
+    background-color: #195a57;
+  }
+
+  .button-menu-2 .arrow {
+    font-size: 36px;
+  }
+
+  /* -------------------------- Inicio Desktop Part3 --------------------------- */
+
+  
 }
