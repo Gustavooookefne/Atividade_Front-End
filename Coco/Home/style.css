@@ -796,32 +796,14 @@ body {
 
   /* -------------------------- Inicio Desktop Part3 --------------------------- */
   
-.part3 {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  padding: 40px;       /* ajuste conforme necessário */
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.Menu-Part3 {
-  max-width: 700px;    /* largura do bloco de texto */
-  text-align: left;    /* mantém h2/p alinhados à esquerda */
-  /* não use flex-direction: column aqui se você quer texto um embaixo do outro isso ok */
-}
-
 .part3-img {
-  margin-left: auto;   /* <<< chave: empurra essa div para a direita */
-  flex: 0 0 auto;
+  float: right;
+  margin-left: 20px;
 }
 
-.part3-img img {
-  display: block;
-  max-width: 360px;    /* ajusta para o tamanho que você quer */
-  height: auto;
+.part3 {
+  overflow: auto; /* para conter o float */
 }
-
 /* arrumar todo a part3 */
 
 }
