@@ -797,13 +797,11 @@ body {
   /* -------------------------- Inicio Desktop Part3 --------------------------- */
   
 .part3-img {
-  float: right;
-  margin-left: 20px;
+  margin-left: 800px;
 }
 
-.part3 {
-  overflow: auto; /* para conter o float */
+.part3 .Menu-Part3 {
+font-size: 49px;
+margin-right: 500px;
 }
-/* arrumar todo a part3 */
-
 }
