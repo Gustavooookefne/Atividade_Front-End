@@ -18,7 +18,7 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #ffffff;
   color: #1a1a1a;
-  padding: 0 16px;
+  padding: 0 0 16px;
 }
 
 
@@ -294,7 +294,7 @@ body {
 /* ------------------------------------------- INICO Part3 --------------------------------------------------------------- */
 .part3 {
   background-color: #e6f4ec;
-  background-image: url(/Coco/Imagens/Companies\ \(1\).png);
+  background-image: url(/Imagens/Companies\ -\ Mobile.png);
   background-size: cover;
   text-align: center;
   padding: 60px 20px;
@@ -795,6 +795,33 @@ body {
   }
 
   /* -------------------------- Inicio Desktop Part3 --------------------------- */
-
   
+.part3 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 40px;       /* ajuste conforme necessário */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Menu-Part3 {
+  max-width: 700px;    /* largura do bloco de texto */
+  text-align: left;    /* mantém h2/p alinhados à esquerda */
+  /* não use flex-direction: column aqui se você quer texto um embaixo do outro isso ok */
+}
+
+.part3-img {
+  margin-left: auto;   /* <<< chave: empurra essa div para a direita */
+  flex: 0 0 auto;
+}
+
+.part3-img img {
+  display: block;
+  max-width: 360px;    /* ajusta para o tamanho que você quer */
+  height: auto;
+}
+
+/* arrumar todo a part3 */
+
 }
