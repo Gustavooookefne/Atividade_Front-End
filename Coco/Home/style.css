@@ -888,72 +888,111 @@ body {
     border-bottom: 1px solid #e4e9e9;
   }
 
+  .footer .cta-section-img{
+    justify-content: space-between;
+  }
+
   .footer .cta-section .get-started-btn {
     margin-left: 30px;
     padding: 15px 25px;
   }
 
-  .footer .cta-section h2 {
-    max-width: 166px;
-
-    margin-left: 930px;
-    text-align: center;
-    
-  }
-
-  .footer .cta-section img {
-    height: 48px;
-    width: auto;
-  }
-
-  .footer .cta-section h2 {
-    font-size: 18px;
-    font-weight: 500;
-  }
-
-  .footer .get-started-btn {
-    background-color: #0b5b5a;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 15px;
-    border-radius: 6px;
-    cursor: pointer;
-  }
-
-
-
-
-
-
-  .footer-newsletter {
-    max-width: 250px;
-  }
-
-  .footer-links {
+   .footer-row.footer-newsletter {
     display: flex;
-    flex-direction: column;
-    gap: 8px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 4rem;
+    margin-right: 5rem;
   }
 
-  .footer-links a {
-    color: #7a7a7a;
-    font-size: 14px;
+  .subscribe-section {
+    flex: 0 0 300px;
+    max-width: 300px;
+  }
+
+  .subscribe-section h3 {
+    margin-right: 100px;
+    color: var(--quarter-color)
+  }
+
+  .newsletter-form {
+    position: relative;
+    max-width: 289px;
+    height: 44px;
+  }
+
+  .footer-column {
+    flex: 0 0 120px;
+    max-width: 120px;
+    display: block;
+  }
+
+  .footer-column h3 {
+    font-family: var(--font-body);
+    font-size: 20px;
+    color: var(--buttons-color);
+    margin-bottom: 1rem;
+  }
+
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 200px;
+  }
+
+  .footer-column li {
+    max-width: 180px;
+    margin-bottom: 12px;
+    margin-right: 100px;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .footer-column a {
+    color: #000;
     text-decoration: none;
   }
 
-  .footer-links a:hover {
+  .footer-column a:hover {
     text-decoration: underline;
   }
 
-  .footer-social {
+  .footer-bottom {
     display: flex;
-    gap: 16px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    margin: 0 2rem
   }
 
-  .footer-social img {
+  .footer-links-bottom {
+    display: flex;
+    gap: 3rem;
+    margin-top: 4rem;
+  }
+
+  .footer-links-bottom a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .footer-links-bottom a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-social-media {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 4rem;
+  }
+
+  .footer-social-media img {
     width: 20px;
     height: 20px;
   }
-
+  
+  
 }
