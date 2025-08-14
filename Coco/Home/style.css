@@ -47,14 +47,14 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
 }
 
 
 .logo img {
   width: 40px;
   height: 40px;
-  margin-right: 9px;
+  margin-right: 8px;
 }
 
 
@@ -85,8 +85,8 @@ body {
   font-weight: 600;
   padding: 4px 12px;
   border-radius: 999px;
-  margin-top: 16px;
   margin-top: 60px;
+  margin-left: 19px;
 }
 
 
@@ -96,6 +96,7 @@ body {
   font-size: 37px;
   font-weight: 700;
   margin-bottom: 12px;
+  margin-left: 19px;
 }
 
 
@@ -105,7 +106,8 @@ body {
   color: #6b7280;
   margin-bottom: 24px;
   line-height: 1.5;
-
+  margin-left: 19px;
+  text-align: left;
 }
 
 
@@ -117,6 +119,7 @@ body {
   list-style: none;
   padding-left: 0;
   margin-bottom: 32px;
+  margin-left: 20px;
 }
 
 
@@ -145,6 +148,10 @@ body {
   border: 1px solid #d1d5db;
 }
 
+.hero-image {
+  margin-left: 14px;
+  margin-bottom: 40px;
+}
 
 /* ------------------------------------------- INICO Part1 --------------------------------------------------------------- */
 .part1 {
@@ -155,21 +162,32 @@ body {
 
 
 /* Título central */
-.part1 .Menu-meio h2 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 12px;
+.primar-text h2 {
+  font-size: 30px;
+  margin-bottom: 14px;
 }
 
 
-
-.part1 .Menu-meio p {
-  font-size: 15px;
+.primar-text .subtitle {
+  font-size: 17px;
   color: #d1d5db;
   margin-bottom: 32px;
   line-height: 1.6;
 }
 
+.secont-text h3 {
+  font-size: 20px;
+  max-width: 280px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.part1 p {
+  font-size: 17px;
+  color: #d1d5db;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
 
 
 /* Cada item */
@@ -180,30 +198,15 @@ body {
 
 
 .part1 img {
-  width: 48px;
-  height: 48px;
+  width: 45px;
+  height: 45px;
   background-color: white;
   border-radius: 50%;
-  padding: 10px;
+  padding: 1px;
   margin-bottom: 16px;
 }
 
 
-
-/* Título e parágrafo dos blocos */
-.part1 h2 {
-  font-size: 17px;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-
-
-
-.part1 p {
-  font-size: 14px;
-  color: #e2e8f0;
-  line-height: 1.6;
-}
 
 /* ------------------------------------------- INICO Part2 --------------------------------------------------------------- */
 .par2 {
@@ -217,28 +220,34 @@ body {
 .par2 .menu img {
   width: 100%;
   border-radius: 12px;
-  margin-bottom: 24px;
+  margin-bottom: 34px;
+  margin-top: 20px;
 }
 
 
 
 /* Título */
 .par2 .menu h2 {
-  font-size: 22px;
-  font-weight: 700;
-  color: #1a1a1a;
+  font-size: 34px;
+  max-width: 330px;
   margin-bottom: 12px;
+  margin-left: 20px;
+  text-align: left;
 }
 
 
 
 /* Parágrafo */
 .par2 .menu p {
-  font-size: 15px;
+  font-size: 17px;
+  max-width: 330px;
   color: #6b7280;
   line-height: 1.6;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
+  text-align: left;
+  margin-left: 20px;
 }
+
 
 
 
@@ -246,31 +255,26 @@ body {
 .button-menu-1 h4 {
   background-color: #0f5b5a;
   color: #ffffff;
-  font-size: 15px;
-  font-weight: 600;
-  padding: 12px 24px;
-  border: none;
+  font-size: 17px;
+  padding: 16px 24px;
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s ease;
   display: inline-flex;
-  align-items: center;
   gap: 8px;
   margin-right: 145px;
+  margin-bottom: 80px;
 }
 
 .button-menu-2 h4 {
   background-color: #0f5b5a;
   color: #ffffff;
-  font-size: 15px;
-  font-weight: 600;
-  padding: 12px 24px;
-  border: none;
+  font-size: 17px;
+  padding: 16px 24px;
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s ease;
   display: inline-flex;
-  align-items: center;
   gap: 8px;
   margin-right: 145px;
 }
@@ -310,11 +314,12 @@ body {
 
 
 .part3 .Menu-Part3 h2 {
-  font-size: 24px;
+  font-size: 32px;
+  max-width: 335px;
   font-weight: 700;
-  color: #1a1a1a;
-  line-height: 1.4;
+  
   margin-bottom: 16px;
+  
 }
 
 
@@ -326,7 +331,7 @@ body {
 
 
 .part3 .Menu-Part3 p {
-  font-size: 15px;
+  font-size: 14px;
   color: #6b7280;
   margin-bottom: 40px;
   max-width: 320px;
@@ -341,6 +346,7 @@ body {
   max-width: 400px;
   margin: 0 auto;
   display: block;
+  margin-right: 20px;
 }
 
 
@@ -355,8 +361,6 @@ body {
 }
 
 
-
-
 /* ------------------------------------------- INICO FOOTER --------------------------------------------------------------- */
 .footer {
   padding: 40px 20px;
@@ -366,7 +370,6 @@ body {
   text-align: center;
   border-top: 1px solid #eaeaea;
 }
-
 
 
 .footer-newsletter h3 {
@@ -381,32 +384,30 @@ body {
 
 .newsletter-form {
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-bottom: 1px solid #e0e0e0;
-  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  max-width: 300px;
+  /* Ajuste conforme necessário */
 }
-
-
 
 .newsletter-form input[type="email"] {
   padding: 10px;
-  width: 70%;
+  flex: 1;
   border: none;
   outline: none;
   font-size: 1rem;
 }
 
-
-
-.submit-btn {
-  background-color: #0B5B5A;
-  color: white;
-  padding: 10px 14px;
+.newsletter-form button {
+  background-color: #1D6F6F;
+  /* Verde-azulado */
   border: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 14px;
   cursor: pointer;
-  font-size: 1.1rem;
-  border-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 
@@ -451,12 +452,11 @@ body {
 
 
 .hero-section h2 {
-  font-size: 1.6rem;
+  font-size: 28px;
   font-weight: bold;
   color: #1A1A1A;
   margin-bottom: 16px;
-  line-height: 1.4;
-
+  max-width: 335px;
 }
 
 
@@ -510,7 +510,6 @@ body {
 .cta-section h2 {
   font-size: 1rem;
   font-weight: normal;
-  color: #1E5D5B;
   margin-bottom: 16px;
 }
 
@@ -880,6 +879,9 @@ body {
     margin-left: 13px;
   }
 
+
+
+
   /* ---- CTA SECTION ---- */
   .footer .cta-section {
     display: flex;
@@ -888,8 +890,21 @@ body {
     border-bottom: 1px solid #e4e9e9;
   }
 
-  .footer .cta-section-img{
-    justify-content: space-between;
+  .cta-section h2 {
+    font-size: 19px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 12px;
+    font-weight: normal;
+    margin-bottom: 16px;
+    margin-left: 850px;
+  }
+
+  .footer .cta-section-img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 16px;
+    margin-left: 96px;
   }
 
   .footer .cta-section .get-started-btn {
@@ -897,7 +912,7 @@ body {
     padding: 15px 25px;
   }
 
-   .footer-row.footer-newsletter {
+  .footer-row.footer-newsletter {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -912,8 +927,11 @@ body {
   }
 
   .subscribe-section h3 {
+    max-width: 192px;
     margin-right: 100px;
-    color: var(--quarter-color)
+    color: var(--quarter-color);
+    font-size: 24px;
+    text-align: left;
   }
 
   .newsletter-form {
@@ -923,14 +941,14 @@ body {
   }
 
   .footer-column {
-    flex: 0 0 120px;
-    max-width: 120px;
-    display: block;
+
+    max-width: 520px;
+
   }
 
   .footer-column h3 {
     font-family: var(--font-body);
-    font-size: 20px;
+    font-size: 22px;
     color: var(--buttons-color);
     margin-bottom: 1rem;
   }
@@ -939,7 +957,6 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-    max-width: 200px;
   }
 
   .footer-column li {
@@ -993,6 +1010,5 @@ body {
     width: 20px;
     height: 20px;
   }
-  
-  
+
 }
