@@ -601,7 +601,9 @@ body {
     align-items: center;
   }
 
-
+  .menu-desktop ul li:last-child {
+    margin-left: 50px; /* distância extra antes do último item */
+}
 
   .menu-desktop a{
     
