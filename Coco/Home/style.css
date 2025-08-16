@@ -602,7 +602,7 @@ body {
   }
 
   .menu-desktop ul li:last-child {
-    margin-left: 60px;
+    margin-left: 430px;
     /* distância extra antes do último item */
   }
 
@@ -621,6 +621,7 @@ body {
     text-decoration: none;
     color: #000;
     font-weight: 500;
+    
   }
 
 
