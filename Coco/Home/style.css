@@ -66,6 +66,7 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   margin-top: -5px;
+  color: var(--third-color);
 }
 
 
@@ -129,11 +130,12 @@ body {
 .hero-Content ul li a {
   display: inline-block;
   padding: 18px 36px;
-  font-weight: 600;
+  font-weight: 400;
   border-radius: 8px;
   text-decoration: none;
   font-size: 15px;
   transition: all 0.2s ease;
+  margin-top: 8px;
 }
 
 
@@ -157,8 +159,8 @@ body {
 
 }
 
-/* ------------------------------------------- INICO Part1 --------------------------------------------------------------- */
-.part1 {
+/* ------------------------------------------- INICO hero-conteiner1 --------------------------------------------------------------- */
+.hero-conteiner1 {
   background-color: #0F5B5A;
   color: white;
   padding: 40px 20px;
@@ -189,7 +191,7 @@ body {
   margin-left: 3px;
 }
 
-.part1 p {
+.hero-conteiner1 p {
   font-size: 17px;
   color: #d1d5db;
   margin-bottom: 32px;
@@ -199,13 +201,13 @@ body {
 
 
 /* Cada item */
-.part1>div:not(.Menu-meio) {
+.hero-conteiner1>div:not(.Menu-meio) {
   margin-bottom: 32px;
 }
 
 
 
-.part1 img {
+.hero-conteiner1 img {
   width: 45px;
   height: 45px;
   background-color: white;
@@ -216,8 +218,8 @@ body {
 
 
 
-/* ------------------------------------------- INICO Part2 --------------------------------------------------------------- */
-.par2 {
+/* ------------------------------------------- INICO hero-conteiner2 --------------------------------------------------------------- */
+.hero-conteiner2 {
   background-color: #ffffff;
   padding: 40px 0px;
   text-align: center;
@@ -225,17 +227,17 @@ body {
 
 
 
-.par2 .menu img {
+.hero-conteiner2 .menu img {
   width: 320px;
   border-radius: 12px;
   margin-bottom: 34px;
   margin-top: 20px;
   align-items: center;
-  margin-left: 8px;
+  margin-right: 10px;
 }
 
 
-.par2 .menu h2 {
+.hero-conteiner2 .menu h2 {
   font-size: 34px;
   max-width: 330px;
   margin-bottom: 12px;
@@ -246,7 +248,7 @@ body {
 
 
 /* Parágrafo */
-.par2 .menu p {
+.hero-conteiner2 .menu p {
   font-size: 17px;
   max-width: 330px;
   color: #6b7280;
@@ -270,7 +272,7 @@ body {
   transition: background 0.3s ease;
   display: inline-flex;
   gap: 8px;
-  margin-right: 145px;
+  margin-right: 162px;
   margin-bottom: 80px;
 }
 
@@ -284,28 +286,28 @@ body {
   transition: background 0.3s ease;
   display: inline-flex;
   gap: 8px;
-  margin-right: 145px;
+  margin-right: 162px;
 }
 
 
 
 /* Seta para a direita opcional (→) */
 
-.par2 .menu h4::after {
+.hero-conteiner2 .menu h4::after {
   content: "→";
   font-size: px;
   font-weight: 300px;
 }
 
 /* Efeito hover */
-.par2 .menu button:hover {
+.hero-conteiner2 .menu button:hover {
   background-color: #0b4948;
 }
 
 
 
-/* ------------------------------------------- INICO Part3 --------------------------------------------------------------- */
-.part3 {
+/* ------------------------------------------- INICO hero-conteiner3 --------------------------------------------------------------- */
+.hero-conteiner3 {
   background-color: #e6f4ec;
   background-image: url(/Imagens/Companies\ -\ Mobile.png);
   background-size: cover;
@@ -315,14 +317,14 @@ body {
 
 
 
-.part3 .color-h2 {
+.hero-conteiner3 .color-h2 {
   color: var(--third-color);
   font-weight: 700;
 }
 
 
 
-.part3 .Menu-Part3 h2 {
+.hero-conteiner3 .Menu-hero-conteiner3 h2 {
   font-size: 32px;
   max-width: 335px;
   font-weight: 700;
@@ -333,13 +335,13 @@ body {
 
 
 
-.part3 .Menu-Part3 h2 span,
-.part3 .Menu-Part3 h2 strong {
+.hero-conteiner3 .Menu-hero-conteiner3 h2 span,
+.hero-conteiner3 .Menu-hero-conteiner3 h2 strong {
   color: var(--third-color);
 }
 
 
-.part3 .Menu-Part3 p {
+.hero-conteiner3 .Menu-hero-conteiner3 p {
   font-size: 14px;
   color: #6b7280;
   margin-bottom: 40px;
@@ -350,7 +352,7 @@ body {
 }
 
 
-.part3 .Menu-Part3 img {
+.hero-conteiner3 .Menu-hero-conteiner3 img {
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
@@ -583,6 +585,10 @@ body {
   .Desktop-img {
     display: none;
   }
+
+  .hero-image-Desktop{
+    display: none;
+  }
 }
 
 
@@ -592,7 +598,11 @@ body {
 
   .menu-mobile {
     display: none;
-    /* Esconde o botão do mobile */
+  
+  }
+
+  .hero-image-Mobile{
+    display: none;
   }
 
   /* -------------------------- Inicio Menu-Desktop --------------------------- */
@@ -600,6 +610,33 @@ body {
   .menu-desktop {
     align-items: center;
   }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+
+  .logo img {
+    width: 35px;
+    height: 35px;
+    margin-left: 49px;
+    margin-top: -5px;
+  }
+
+
+  .logo h1 {
+    margin-left: 11px;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -5px;
+    color: var(--third-color);
+  }
+
+
+
 
   .menu-desktop ul li:last-child {
     margin-left: 430px;
@@ -621,7 +658,6 @@ body {
     text-decoration: none;
     color: #000;
     font-weight: 500;
-    
   }
 
 
@@ -682,34 +718,36 @@ body {
     max-width: 510px;
   }
 
-  /* -------------------------- Inicio Part1 --------------------------- */
 
 
-  .part1 .primar-text h2,
-  .part1 .primar-text p,
-  .part1 .secont-text h3,
-  .part1 .secont-text p,
+  /* -------------------------- Inicio hero-conteiner1 --------------------------- */
+
+
+  .hero-conteiner1.primar-text h2,
+  .hero-conteiner1 .primar-text p,
+  .hero-conteiner1 .secont-text h3,
+  .hero-conteiner1 .secont-text p,
   .support-item {
     padding-left: 30px;
   }
 
 
 
-  .part1 .primar-text h2 {
+  .hero-conteiner1 .primar-text h2 {
     font-size: 60px;
     font-weight: bold;
-    margin-bottom: 10px;
     max-width: 784px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 45px;
+    margin-left: 30px;
   }
 
-  .part1 .primar-text p {
+  .hero-conteiner1 .primar-text p {
     font-size: 19px;
     max-width: 488px;
   }
 
-  .part1 .subtitle {
+  .hero-conteiner1 .subtitle {
     font-size: 16px;
     margin-bottom: 40px;
   }
@@ -729,7 +767,7 @@ body {
     margin-top: 19px;
   }
 
-  .part1 .secont-text {
+  .hero-conteiner1 .secont-text {
     display: flex;
     align-items: flex-start;
     gap: 20px;
@@ -737,34 +775,35 @@ body {
 
 
 
-  .part1 .secont-text h3 {
+  .hero-conteiner1 .secont-text h3 {
     font-size: 32px;
     max-width: 280px;
 
   }
 
-  .part1 .secont-text p {
+  .hero-conteiner1 .secont-text p {
     font-size: 18px;
     max-width: 331px;
   }
 
-  /* -------------------------- Inicio Part2 --------------------------- */
+  /* -------------------------- Inicio hero-conteiner2 --------------------------- */
 
   .mobile-img {
     display: none;
   }
 
+  .hero-conteiner2 .menu img {
+    width: 579px;
+  }
 
   .image-menu {
-    max-width: 579px;
     width: auto;
     margin-right: 115px;
-    margin-left: 75px;
+    margin-left: 92px;
   }
 
 
   .image-menu2 {
-    max-width: 579px;
     width: auto;
     order: 999;
     margin-left: 97px;
@@ -776,15 +815,16 @@ body {
   }
 
 
-  .par2 .menu-text h2 {
+  .hero-conteiner2 .menu-text h2 {
     max-width: 500px;
     font-size: 48px;
     text-align: left;
     margin-left: 35px;
+    margin-top: 75px;
   }
 
 
-  .par2 .menu-text p {
+  .hero-conteiner2 .menu-text p {
     font-size: 17px;
     max-width: 402px;
     text-align: left;
@@ -792,14 +832,14 @@ body {
   }
 
 
-  .par2 .menu-text-2 h2 {
+  .hero-conteiner2 .menu-text-2 h2 {
     max-width: 500px;
     font-size: 48px;
     text-align: left;
     margin-left: 90px;
   }
 
-  .par2 .menu-text-2 p {
+  .hero-conteiner2 .menu-text-2 p {
     font-size: 17px;
     max-width: 541px;
     text-align: left;
@@ -852,11 +892,13 @@ body {
     font-size: 36px;
   }
 
-  /* -------------------------- Inicio Part3 --------------------------- */
+  /* -------------------------- Inicio hero-conteiner3 --------------------------- */
 
+  .hero-conteiner3{
+    padding: 150px 10px;
+  }
 
-
-  .part3 .part3-img {
+  .hero-conteiner3 .hero-conteiner3-img {
     order: 999;
     max-width: 493px;
     height: auto;
@@ -867,7 +909,7 @@ body {
 
 
 
-  .Menu-Part3 {
+  .Menu-hero-conteiner3 {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -877,7 +919,7 @@ body {
   }
 
 
-  .part3 .menu-text h2 {
+  .hero-conteiner3 .menu-text h2 {
     max-width: 712px;
     max-height: auto;
     font-size: 51px;
@@ -887,7 +929,7 @@ body {
 
 
 
-  .part3 .menu-text p {
+  .hero-conteiner3 .menu-text p {
     max-width: 410px;
     max-height: auto;
     text-align: left;
@@ -914,7 +956,7 @@ body {
 
   .footer .hero-section h2 {
     max-width: 902px;
-    font-size: 43px;
+    font-size: 44px;
     font-weight: 850;
     margin-bottom: 16px;
   }
@@ -922,13 +964,14 @@ body {
   .footer .hero-section p {
     max-width: 626px;
     font-size: 17px;
-    margin-bottom: 24px;
+    margin-bottom: 37px;
+    margin-left: 71px;
   }
 
   .footer .explore-btn {
     background-color: #0b5b5a;
     border: none;
-    padding: 12px 24px;
+    padding: 18px 28px;
     font-size: 16px;
     border-radius: 6px;
     cursor: pointer;
@@ -969,6 +1012,7 @@ body {
   .footer .cta-section .get-started-btn {
     margin-left: 30px;
     padding: 15px 25px;
+    margin-top: 32px;
   }
 
   .footer-row.footer-newsletter {
@@ -1047,7 +1091,7 @@ body {
   .footer-links-bottom {
     display: flex;
     gap: 3rem;
-    margin-top: 4rem;
+    margin-top: 64px;
   }
 
   .footer-links-bottom a {
