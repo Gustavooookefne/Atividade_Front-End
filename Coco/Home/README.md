@@ -27,3 +27,7 @@ Parte 1 - Fazer o Html
 Parte 2 - Colocar as imagens / Fontes 
 Parte 3 - Fazer o CSS
 Parte 4 - Entregar o tabalho
+
+# ------------------------------------------------- #
+
+Pronto
